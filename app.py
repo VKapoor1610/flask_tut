@@ -6,7 +6,7 @@ from flask import Flask, render_template, jsonify
 app = Flask(__name__)
 # __name__ has initial value = __main__
 data = [
-  'Vihan', 'Kapoor', 'Payal', 'Kapoor', "Sanjay", "Kapoor", "Manju", "Kapoor"
+  'Vihan', 'Kapoor'
 ]
 # store some data in form of list or list of dictionary for accessing inside another function
 
